@@ -50,10 +50,10 @@ def main():
     """
     Fonction principale qui orchestre la lecture et les tests.
     """
-    # data = read_data(FILENAME)
-    # for i, l in enumerate(data):
-    #     print(i, l)
-    # k = 37
-    # print(k, get_list_k(data, 37))
+    data = read_data(FILENAME)
+    for i, l in enumerate(data):
+        print(i, l)
+    k = 37
+    print(k, get_list_k(data, 37))
 if __name__ == "__main__":
     main()
